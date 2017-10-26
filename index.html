@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ITMD-361 Lab 5 CSS Data Table</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Planets</h1>
+  </header>
+  
+  <div id="sidebar">
+    <h2>Welcome to the Planets</h2>
+  </div>
+  <div id="content">
+    <main>
+      <table>
+        <!--<tr id="tablehead">
+          <th colspan="5">Planets</th>
+        </tr>-->
+        <tr id="colname">
+          <th class="columnname"></th>
+          <th class="columnname"><img src="https://pds.jpl.nasa.gov/planets/images/thumb/Welcome/jupglobe.gif"></th>
+          <th class="columnname"><img src="https://pds.jpl.nasa.gov/planets/images/thumb/Welcome/2moons_2.gif"></th>
+          <th class="columnname"><img src="https://pds.jpl.nasa.gov/planets/images/thumb/Welcome/uraglobe.gif"></th>
+          <th class="columnname"><img src="https://pds.jpl.nasa.gov/planets/images/thumb/Welcome/nepglobe.gif"></th>
+        </tr>
+        <tr id="planets">
+          <th></th>
+          <th class="columnname">Jupiter</th>
+          <th class="columnname">Saturn</th>
+          <th class="columnname">Uranus</th>
+          <th class="columnname">Neptune</th>
+        </tr>
+        <tr id="mass">
+          <th class="fields">Mass (kg)</th>
+          <td>1.90 x 10^27</td>
+          <td>5.69 x 10^26</td>
+          <td>8.68 x 10^25</td>
+          <td>1.02 x 10^26</td>
+        </tr>
+        <tr id="diameter">
+          <th class="fields">Diameter (km)</th>
+          <td>142,800</td>
+          <td>120,660</td>
+          <td>51,118</td>
+          <td>49,528</td>
+        </tr>
+        <tr id="density">
+          <th class="fields">Mean Density (kg/m^3)</th>
+          <td>1,314</td>
+          <td>690</td>
+          <td>1,290</td>
+          <td>1,640</td>
+        </tr>
+        <tr id="velocity">
+          <th class="fields">Escape Velocity (m/s)</th>
+          <td>59,500</td>
+          <td>35,600</td>
+          <td>21,300</td>
+          <td>23,300</td>
+        </tr>
+        <tr id="distance">
+          <th class="fields">Average Distance from Sun</th>
+          <td>5.203 AU (778,412,020 km)</td>
+          <td>9.537 AU (1,426,725,400 km)</td>
+          <td>19.19 AU (2,870,972,200 km)</td>
+          <td>30.07 AU (4,498,252,900 km)</td>
+        </tr>
+        <tr id="rotation">
+          <th class="fields">Rotation Period (length of day in Earth days)</th>
+          <td>0.41 (9.8 Earth hours)</td>
+          <td>0.44 (10.2 Earth hours)</td>
+          <td>0.72 (17.9 Earth hours)(retrograde)</td>
+          <td>0.67 (19.1 hours)</td>
+        </tr>
+        <tr id="revolution">
+          <th class="fields">Revolution Period (length of year in Earth years)</th>
+          <td>11.86</td>
+          <td>29.46</td>
+          <td>30,685 (84 Earth years)</td>
+          <td>60,190 (164.8 Earth years)</td>
+        </tr>
+      </table>
+    </main>
+  </div>
+  <footer>
+    <p>Copyright &#169; 2017 Deborah Barndt</p>
+  </footer>
+</body>
+</html>
