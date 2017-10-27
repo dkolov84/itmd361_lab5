@@ -16,7 +16,7 @@ header {
 	font-size: 30px;
   color: #FFFFFF;
   font-family: 'Orbitron', sans-serif;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 1px;
 }
 
@@ -99,6 +99,11 @@ img {
   font-family: 'Space Mono', sans-serif;
   font-weight: bold;
   font-size: 17px;
+}
+
+sup { 
+  vertical-align: 10px;
+  font-size: smaller;
 }
 
 main {
