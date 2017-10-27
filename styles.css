@@ -7,22 +7,22 @@ body {
   background-color: #CCCEDC;
 }
 
-#page-wrapper {
-	width: 960px;
-	background-color: blue;
-	margin: 0 auto;
-}
-
 header {
-	background-color: #4F5584;
+	display: block;
+  background-color: #4F5584;
   position: relative;
 	height: 80px;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
   color: #FFFFFF;
   font-family: 'Orbitron', sans-serif;
   margin-top: 10px;
   padding: 1px;
+}
+
+#heading {
+  margin-top: 1px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -40,11 +40,20 @@ footer {
 table {
   position: relative;
   width: 100%;
-  height: 450px;
+  height: 500px;
+  margin-top: 19px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-spacing: 10px;
 }
 
 th {
   text-align: left;
+}
+
+th span::before {
+  content: "\A";
+  white-space: pre;
 }
 
 td span::before {
@@ -52,8 +61,9 @@ td span::before {
   white-space: pre;
 }
 
-img {
-  align: center;
+td {
+  padding: 7px;
+  border-bottom: 1px solid #CCCEDC;
 }
 
 #planets {
@@ -66,31 +76,39 @@ img {
   float: left;
   font-family: 'Space Mono', sans-serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 main {
 	background-color: #9C9FBA;
 	float: right;
-	width: 78.6%;
-	height: 500px;
+	width: 78.9%;
+	height: 600px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 3px;
 }
 
 #content {
   font-family: Verdana, sans-serif;
 }
 
-#mass {
-  padding: 2px 2px 2px 2px;
+#welcome {
+  margin-top: 180px;
+  text-align: center;
 }
 
-#sidebar {
+#leftsidebar {
 	background-color: #72779E;
+  position: relative;
   float: left;
-	width: 20%;
-  height: 500px;
+	width: 19%;
+  height: 600px;
   font-size: 38px;
   font-family: 'Orbitron', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 2px;
 }
